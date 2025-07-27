@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AccioJob Full HTML</title>
+  </head>
+  <body>
+
+    <!-- ==============  heading, div & span   =============== -->
+
+    <!-- Big & bold | use for higest importance -->
+    <!-- H1 carries the hiest level of importance heading -->
+    <h1>Hello world</h1>
+
+    <!-- if you want to add subheading -->
+    <h2>Heading 2</h2>
+
+    <!-- for further details/subjections within the content -->
+    <!-- All heading tags have some semantic meaning -->
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 7</h6>
+
+    <!-- Paragraph tag -->
+    <!-- Its used to define paragraph, its a block level element that helps structure and 
+     format that textual content within an html document.  -->
+    <p>
+      Hello everyone my name is Saifi Lorem ipsum dolor sit amet consectetur,
+      adipisicing elit. Fuga, a quia id officiis ad alias voluptatum facilis
+      dolore iste, eum, omnis dignissimos quisquam quam nesciunt.
+    </p>
+
+    <!-- List of tag that structure paragraph -->
+    <!-- 
+     1. Bold
+     2. Italic
+     3. Underline
+     4. Big 
+     5. Small
+     6. Sup
+     7. Sub
+      -->
+
+    <!-- 1. Bold -->
+    <p>This is <b>Nadeem Saifi</b> from Bareilly</p>
+
+    <!-- italic -->
+    <p>This is <i>Nadeem Saifi</i> from Bareilly</p>
+
+    <!-- Underline -->
+    <p>This is <u>Nadeem Saifi</u> from Bareilly</p>
+
+    <!-- Big -->
+    <p>This is <big>Nadeem Saifi</big> from Bareilly</p>
+
+    <!-- Small -->
+    <p>This is <small>Nadeem Saifi</small> from Bareilly</p>
+
+    <!-- Sup -->
+    <p>2<sup>2</sup> = 4</p>
+
+    <!-- Sub -->
+    <p>H<sub>2</sub>SO<sub>4</sub></p>
+
+    <div>
+      <h1>Hello world</h1>
+      <p>
+      Hello everyone my name is Saifi Lorem ipsum dolor sit amet consectetur,
+      adipisicing elit. Fuga, a quia id officiis ad alias voluptatum facilis
+      dolore iste, eum, omnis dignissimos quisquam quam nesciunt.
+    </p>
+
+    </div>
+
+    <h1>I'm Nadeem Saifi</h1>
+
+
+
+    <!-- ======================  attribute and its related tags   ====================== -->
+     <hr>
+    <h1 title="safi">Hello World!</h1>
+
+    <!-- Title provide the addional information or advisory information about the image. to the user at hover effect -->
+    <img
+      height="300px"
+      width="500px"
+      src="https://images.unsplash.com/photo-1729175080670-a10815134e80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDcxfHx8ZW58MHx8fHx8"
+      alt="Palastine flag"
+      title="Free Palastine"
+    />
+
+    <!-- ============= Lecture-3 ( List )============ -->
+    <hr />
+    <h1>Lists</h1>
+
+    <ol>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Orange</li>
+      <li>kiwi</li>
+    </ol>
+
+    <ul>
+      <li>Potato</li>
+      <li>Tomato</li>
+      <li>Cucumbers</li>
+      <li>veins</li>
+    </ul>
+
+    <!-- dl (description list), dt(description table), dd(data description )  -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+    </dl>
+
+    <!-- =============== Nested list =============== -->
+    <hr />
+
+    <ol>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Orange</li>
+      <li>
+        Vegitables
+        <ul>
+          <li>Potato</li>
+          <li>Tomato</li>
+          <li>Cucumbers</li>
+          <li>veins</li>
+        </ul>
+      </li>
+      <li>kiwi</li>
+    </ol>
+
+    <!-- =================  Table  ================ -->
+    <!-- <thead>, <tbody>, <tfoot>  it does't make any changes but better for understanding-->
+    <!-- Syntax
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                 </table>
+         -->
+    <hr />
+
+    <table
+      border="10"
+      style="border-top-left-radius: 10px; border-bottom-right-radius: 10px"
+    >
+      <caption>
+        Electronic Bill
+      </caption>
+      <thead>
+        <tr>
+          <th>SN.</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>iPhone</td>
+          <td>Phone</td>
+          <td>1,20000</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Mac</td>
+          <td rowspan="3">Laptop</td>
+          <td>1,60000</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Mac</td>
+          <td>1,60000</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Mac</td>
+          <td>1,60000</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>iPad</td>
+          <td>Tablet</td>
+          <td>70000</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3"><strong>Total</strong></td>
+          <td>200000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- ================== Form  =================== -->
+    <hr />
+
+    <form action="" method="get">
+      <!-- type: text -->
+      <label for="my_name">Name:</label>
+      <input type="text" id="mu_name" placeholder="enter your name" />
+      <!-- type: password -->
+      <input type="password" />
+      <!-- type: submit -->
+      <input type="submit" value="Login" />
+      <!-- type: number -->
+      <input type="number" />
+      <!-- type: email  -->
+      <input type="email" />
+      <!-- type: range -->
+      <input type="range" min="10" max="20" />
+      <!-- type: date -->
+      <input type="date" />
+      <!-- type: url -->
+      <input type="color" /><br>
+
+      Gender:
+      <input type="radio" value="Male" name="Gender">Male
+      <input type="radio" value="Female" name="Gender">Female
+      <input type="radio" value="Other" name="Gender">Other <br>
+
+      <!-- checkbox -->
+      <input type="checkbox" />
+      <!-- radio -->
+      <input type="radio" />
+      <!-- file -->
+      <input type="file" />
+      <!-- button -->
+      <input type="button" value="Sign Up" />
+      <!-- Reset -->
+      <input type="reset" />
+
+      <!-- dropdown -->
+
+      <select multiple>
+        <option>BMW</option>
+        <option>Audi</option>
+        <option>Hyundi</option>
+      </select>
+
+      <!-- textarea -->
+      <textarea rows="5" cols="20"></textarea>
+
+      <button type="button">Submit</button>
+    </form>
+
+    <div style="margin-bottom: 200px"></div>
+  </body>
+</html>
